@@ -1,0 +1,46 @@
+// Меняем стандартные табы
+.nav-link.active,
+.show>.nav-link {
+    color: black !important;
+    font-size: 1.2em;
+    transform: scale(1.1);
+}
+
+$nav-pills-link-active-bg: $bg !important;
+
+
+.nav-pills .nav-link {
+    // @include border;
+    background-color: #dde5f1;
+    color: black;
+    font-size: 1.2em;
+}
+
+
+// Desktop Tabs-Services
+    
+// Список услуг – Табы
+.services__list > li {
+    font-size: 1.3em;
+    margin-bottom: .6em;
+}
+
+.nav-pills .nav-link.active {
+  background-color: $main;
+}
+
+.nav-pills .nav-link.active {
+  color: white !important;
+}
+
+
+    
+
+    // Layout для компонента description
+
+        .desktop-description__list > li {
+        background-color: $main;
+        color: white;
+        // @include shadow;
+        // @include border;
+    }

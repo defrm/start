@@ -1,0 +1,39 @@
+// Описание услуг
+
+.description__item {
+    min-width: 600px;
+}
+
+.description__head {
+    // background-image: url("./../../../img/placeholder.jpg");
+    background-repeat: no-repeat;
+    overflow: hidden;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    position: relative;
+    // border: 1px solid black;
+
+    ul {
+        z-index: 2;
+    }
+
+    img {
+        position: absolute; 
+        top: 0; 
+        z-index: 0
+    }
+}
+
+.description__parag {
+    max-width: 650px;
+}
+
+.description__fancy {
+    // width: 800px;
+    
+    img {
+        width: 150px;
+    }
+}
