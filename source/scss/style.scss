@@ -17,6 +17,7 @@ $shadow: 0 0 25 rgba(0, 0, 0, .05);
 
 // SCSS header
 @import "components/header/header";
+// @import "components/header/header-alt";
 
 // SCSS services-Desktop
 // @import "components/services/services";
@@ -24,4 +25,9 @@ $shadow: 0 0 25 rgba(0, 0, 0, .05);
 @import "components/services/description";
 
 // SCSS code for Page
-// @import "components/pages/page-body";
+@import "components/pages/page";
+
+.page__header {
+    height: 100px;
+    outline: 5px solid black;
+}

@@ -20,7 +20,19 @@
     </div>
 
     <main class="container">
-        <?php require 'partials/page-body.php' ?>
+        <div class="page">
+            <?php require 'partials/page-header.php' ?>
+            <h1>Уборка кровли от снега и наледи в Екатеринбурге</h1>
+            <div class="page__header">
+
+            </div>
+            <?php require 'partials/page-body.php' ?>
+            <h2>Виды зимних работ на кровле</h2>
+            <div class="page__types-service mt-3">
+                <img src="./../dist/img/clean.jpg">
+                <div class="page__contacts"><span>898888888</span></div>
+            </div>
+        </div>
     </main>
 
 </body>

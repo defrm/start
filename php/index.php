@@ -8,7 +8,7 @@
     <script type="module" src="../dist/main.js"></script>
     <!-- ../dist/style.css -->
     <link rel="stylesheet" href="../dist/style.css">
-    <title>Страница Услуги</title>
+    <title>Промышленные альпинисты</title>
 </head>
 
 <body>

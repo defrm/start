@@ -5,8 +5,7 @@ body {
     font-weight: lighter;
 }
 
-// media
-
+// media ##########################
 @media (orientation: landscape) {
     /* При горизонтальной ориентации фоновым цветом сайта будет белый */
     body {
@@ -20,3 +19,10 @@ body {
       background: #000;
     }
   }
+
+// mixins ##########################
+@mixin gorizontal-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2em;
+}
