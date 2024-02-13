@@ -2,7 +2,7 @@
 <div class=" scale-up-bottom tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab" tabindex="0">
     <div class="description-item">
         <div class="description__head">
-            <ul style="z-index: 2;" class="d-flex ms-2 mb-4 flex-wrap desktop-description__list">
+            <ul class="d-flex flex-wrap desktop-description__list">
                 <li class="text-center px-3 py-2 m-1">
                     <span class="fs-4">
                         Мойка офисный зданий
@@ -38,7 +38,7 @@
         </p>
         <!-- Галерея gallery-clean-1 -->
         <div class="description__fancy">
-            <div class="ms-4 mt-4 d-flex flex-wrap description__fancy">
+            <div class="d-flex flex-wrap description__fancy">
 
                 <a href="./../../dist/img/clean.jpg" data-fancybox="gallery-clean-1" data-caption="Caption #1">
                     <img style="width: 150px;" src="./../../dist/img/clean.jpg" />

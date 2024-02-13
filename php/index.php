@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- ../dist/main.js -->
-    <script type="module" src="../dist/main.js"></script>
+    <script defer type="module" src="../dist/main.js"></script>
     <!-- ../dist/style.css -->
     <link rel="stylesheet" href="../dist/style.css">
     <title>Промышленные альпинисты</title>
@@ -34,11 +34,13 @@
                         <!-- #Клининг -->
                         <?php require "partials/services-clean.php" ?>
                         <!-- #Герметизация -->
-                        <?php // require "services-germet.php" ?>
+                        <?php // require "services-germet.php" 
+                        ?>
                         <!-- Монтажные работы -->
                         <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab" tabindex="0">Монтажные работы</div>
                         <!-- #Снег -->
-                        <?php // require "services-snow.php" ?>
+                        <?php // require "services-snow.php" 
+                        ?>
                         <!-- Подъем грузов -->
                         <div class="tab-pane fade" id="raise" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">Подъем грузов</div>
                     </div>
