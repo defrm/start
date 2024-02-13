@@ -7118,4 +7118,9 @@ ul.header__menu {
   outline: 5px solid black;
 }
 
+.sticky {
+  position: sticky;
+  top: 2em;
+}
+
 /*# sourceMappingURL=style.css.map */
