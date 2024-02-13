@@ -11,6 +11,7 @@
   "license": "ISC",
   "devDependencies": {
     "@ciar4n/izmir": "^1.0.1",
+    "@fancyapps/ui": "^5.0.33",
     "bootstrap": "^5.3.2",
     "laravel-mix": "^6.0.49"
   },

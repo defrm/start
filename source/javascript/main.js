@@ -1,6 +1,12 @@
 import './../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js'
 import './../../node_modules/@ciar4n/izmir/izmir.min.css'
 
+import { Fancybox } from '@fancyapps/ui'
+import '@fancyapps/ui/dist/fancybox/fancybox.css'
+Fancybox.bind('[data-fancybox]', {
+			// Your custom options
+		})
+
 import Swiper from 'swiper'
 import { Navigation, Pagination } from 'swiper/modules'
 import 'swiper/css'
