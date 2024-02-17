@@ -17,10 +17,10 @@ Swiper.use([Navigation, Pagination])
 
 const swiper = new Swiper('.swiper', {
 	// Optional parameters
-	speed: 400,
-	spaceBetween: 100,
-	direction: 'vertical',
-	loop: true,
+	// speed: 400,
+	// spaceBetween: 100,
+	// direction: 'vertical',
+	// loop: true,
 
 	// If we need pagination
 	pagination: {

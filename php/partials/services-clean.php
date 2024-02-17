@@ -1,5 +1,5 @@
 <!-- Клининговые работы в Екатеринбурге -->
-<div class=" scale-up-bottom tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab" tabindex="0">
+<div class="scale-up-bottom tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab" tabindex="0">
     <div class="description-item">
         <div class="description__head">
             <ul class="d-flex flex-wrap desktop-description__list">
