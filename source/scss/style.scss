@@ -1,6 +1,20 @@
 // @import "common/normalize";
 @import "common/reset.scss";
 
+@font-face {
+  font-family: "ProximaNova";
+  src: local("fonts/ProximaNova-Regular"),
+          local("ProximaNova-Regular"),
+          url("fonts/ProximaNova-Regular.woff") format("woff");
+  font-weight: normal;
+  font-display: fallback;
+}
+
+body {
+  font-size: 16px;
+  font-family: "ProximaNova";
+}
+
 $color: #444444;
 $bg: #eef1f7;
 $bg1 : #c4cfdd;
