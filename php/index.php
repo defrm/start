@@ -18,6 +18,51 @@
         </header>
     </div>
 
+    <div class="d-none d-lg-block">
+        <nav class="  mx-5 d-flex align-items-center">
+            <a href="/">
+                <picture>
+                    <!-- <source srcset="img/logo.png" media="(max-width: 575px)"> -->
+                    <!-- <source srcset="webp/logo-1x.png 1x, webp/logo-2x.png 2x"> -->
+                    <img class="logo-desktop" width="30px" height="30px" src="./../dist/img/logo.png" alt="Высотные работы">
+                </picture>
+            </a>
+            <ul class="header__list p-3 d-flex me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+
+                    <!-- drop-down menu -->
+                    <div class="dropdown">
+                        <button class=" dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Услуги
+                        </button>
+                        <ul class="dropdown-menu">
+                            <a href="page.html">
+                                <li><button class="dropdown-item" type="button">Клининг</button></li>
+                            </a>
+                            <li><a href="bootstrap.html">
+                                    <button class="dropdown-item" type="button">bootstrap</button>
+                                </a></li>
+                            <a href="./header.html">
+                                <li><button class="dropdown-item" type="button">Монтаж</button></li>
+                            </a>
+                            <a href="snow.html">
+                                <li><button class="dropdown-item" type="button">Уборка снега</button></li>
+                            </a>
+                            <li><button class="dropdown-item" type="button">Обрезка деревьев</button></li>
+                        </ul>
+                    </div>
+                    <!-- <a class="nav-link active " aria-current="page" href="#">Услуги</a> -->
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#">Контакты</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#">Сотрудничество</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
     <!-- first-screen-Desktop -->
     <div class="container">
         <section class="baner-section d-none d-lg-flex flex-column">

@@ -1,27 +1,84 @@
-// header
-
-.header__wrapper {
-    background-color: black;
+.logo img {
+    width: 38px;
 }
 
-.header {
-    outline: 5px solid salmon;
-    // outline-offset: -5px;
-    a {color: aliceblue; }
-}
-
-.header__menu {
+  .header-mobile {
     display: flex;
+    justify-content: space-between;
+    background-color: $bg;
+    padding: 1.5em .5em;
+}
+
+// выпадающее меню
+#drop-down {
+    display: none;
+    position: absolute;
+}
+
+#drop-down.active {
+    display: block;
+}
+
+.drop-down {
+    display: block;
+	width: 100%;
+	// position: absolute;
+	// z-index: 10000;
+	// left: 0;
+	// padding: 30px 15px;
+	// text-align: center;
+	background-color: $bg1;
+}
+
+.icons {
+    display: flex;
+    height: auto;
+}
+
+.logo-desktop {
+    width: 30px;
+    height: 30px;
+    box-shadow: $shadow;
+}
+
+.header__list {
+    font-size: 19px;
+    list-style: none;
+    line-height: 200%;
     align-items: center;
 }
 
-.header__phone {
-    margin-left: auto;
+.dropdown-toggle {
+    border: none !important;
 }
 
-ul.header__menu {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+.nav-item {
+    padding-left: 1em;
 }
 
+.bg-body-tertiary {
+    --bs-bg-opacity: 1;
+    // background-color: $bg !important;
+    background-color: #234d7b !important;
+}
+
+.navbar-collapse {
+    // background-color: #fff;
+}
+
+.container-fluid {
+    --bs-gutter-x: .1rem !important;
+}
+
+.navbar {
+    padding-bottom: 0;
+ --bs-navbar-padding-y: .0rem;
+}
+
+.icon-color {
+    color: red;
+  }
+
+  .navbar-toggler-dm {
+    border: none !important;
+  }

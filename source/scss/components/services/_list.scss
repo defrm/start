@@ -33,14 +33,16 @@ $nav-pills-link-active-bg: $bg !important;
   color: white !important;
 }
 
+// Layout для компонента description
 
-    
+    .desktop-description__list > li {
+    background-color: $main;
+    color: white;
+    // @include shadow;
+    // @include border;
+}
 
-    // Layout для компонента description
-
-        .desktop-description__list > li {
-        background-color: $main;
-        color: white;
-        // @include shadow;
-        // @include border;
-    }
+.sticky {
+  position: sticky;
+  top: 2em;
+}

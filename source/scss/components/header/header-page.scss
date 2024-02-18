@@ -1,0 +1,27 @@
+// header
+
+.header__wrapper {
+    background-color: black;
+}
+
+.header {
+    outline: 5px solid salmon;
+    // outline-offset: -5px;
+    a {color: aliceblue; }
+}
+
+.header__menu {
+    display: flex;
+    align-items: center;
+}
+
+.header__phone {
+    margin-left: auto;
+}
+
+ul.header__menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
